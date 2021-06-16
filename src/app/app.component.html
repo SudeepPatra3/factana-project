@@ -1,0 +1,43 @@
+<div id="body" class="p-3">
+  <div class="row container-fluid">
+    <div class="col-md-6">
+      <h4>Dashboard</h4>
+    </div>
+    <div class="col-md-6">
+      <button class="btn btn-primary float-right">Create Report</button>
+    </div>
+  </div>
+  <hr>
+  <app-firstfold-data class="p-2"></app-firstfold-data>
+  <div class="row">
+    <div class="col-md-8">
+      <app-second-fold></app-second-fold>
+    </div>
+    <div class="col-md-4">
+      <app-gaugechart></app-gaugechart>
+    </div>
+  </div>
+
+  <!--sec b  -->
+  <div class="row p-2">
+    <div class="col-md-4">
+      <app-projects></app-projects>
+    </div>
+    <div class="col-md-8">
+      <app-linechart></app-linechart>
+    </div>
+  </div>
+
+  <!-- sec c -->
+  <app-table class="p-2"></app-table>
+
+  <!-- last section -->
+  <div class="row p-1">
+    <div class="col-md-5">
+      <app-activity></app-activity>
+    </div>
+    <div class="col-md-7">
+      <app-checklist></app-checklist>
+    </div>
+  </div>
+</div>
